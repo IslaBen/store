@@ -9,7 +9,7 @@ global window object. They are accessible via:
 - `window.location` ([Location API](https://developer.mozilla.org/en-US/docs/Web/API/Location))
 - `window.history` ([History API](https://developer.mozilla.org/en-US/docs/Web/API/History))
 
-Our location data is a dynamic and important part of application state-the kind
+Our location data is a dynamic and important part of application state. The kind
 of state that belongs in a store. Holding it in the store enables devtools luxuries like
 time-travel debugging, and easy access from any store-connected component.
 
